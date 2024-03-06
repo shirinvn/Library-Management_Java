@@ -4,22 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2c179f63-4947-424e-af54-13fae2c8cb80" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FirstProject.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/library/Admin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/library/DataBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/library/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/library/NormalUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/library/User.java" afterDir="false" />
-    </list>
+    <list default="true" id="2c179f63-4947-424e-af54-13fae2c8cb80" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -91,7 +76,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1709670617231</updated>
-      <workItem from="1709670619167" duration="10524000" />
+      <workItem from="1709670619167" duration="11139000" />
     </task>
     <servers />
   </component>
