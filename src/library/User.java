@@ -4,6 +4,7 @@ public abstract class User {
     protected String name;
     protected  String email;
     protected String phonenumber;
+    protected  IOOperation[] operation;
 
 
     public User(String name){

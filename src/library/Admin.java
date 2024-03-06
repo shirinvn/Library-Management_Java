@@ -2,13 +2,25 @@ package library;
 
 public class Admin extends User {
 
+
+
+
     public  Admin(String name){
         super(name);
+        this.operation = new IOOperation[]{
+                new AddBook()
+    };
     }
+
 
     public Admin(String name, String email, String phonenumber){
         super(name,email,phonenumber);
+
+        this.operation = new IOOperation[]{
+                new AddBook()
+        };
     }
+
     @Override
     public void menu(){
         System.out.println("1. View Books");
