@@ -1,6 +1,6 @@
 package library;
 
-public class Admin extends  User {
+public class Admin extends User {
 
     public  Admin(String name){
         super(name);

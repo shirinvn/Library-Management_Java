@@ -10,7 +10,8 @@ public class Main {
 
     public static void main(String[] args) {
 
-         dataBase = new DataBase();
+        dataBase = new DataBase();
+
          System.out.println("Welcome to Library Management System!");
 
          int num;
@@ -26,7 +27,6 @@ public class Main {
              }
          } while (num != 0);
 
-
     }
 
 
@@ -36,7 +36,7 @@ public class Main {
         System.out.println("Enter Email:");
         String email = scanner.next();
         int n= dataBase.login(phonenumber,email);
-        if ( n != -1){
+        if ( n != -1 ){
             User user = dataBase.getUser(n);
             System.out.println("Welcome "+ user.getName());
             user.menu();
@@ -60,18 +60,11 @@ public class Main {
             User user;
             if (n2 == 1){
                 user = new Admin( name, email,phonenumber);
-
-
             }else {
                user = new NormalUser( name, email,phonenumber);
-
             }
+
             dataBase.AddUser(user);
             System.out.println("User created successfully");
     }
-
-
-
-
-
-    }
+}

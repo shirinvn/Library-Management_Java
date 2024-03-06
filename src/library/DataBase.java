@@ -5,7 +5,6 @@ import java.util.ArrayList;
 
 public class DataBase {
 
-
     ArrayList<User>  users= new ArrayList<User>();
     ArrayList<String>  usernames= new ArrayList<String>();
 
